@@ -1,0 +1,11 @@
+c:\users\cesarmorales\documents\visual studio 2015\Projects\ReadBinWriteTxt\ReadBinWriteTxt\bin\Debug\ReadBinWriteTxt.exe.config
+C:\Users\CESARMORALES\documents\visual studio 2015\Projects\ReadBinWriteTxt\ReadBinWriteTxt\obj\Debug\ReadBinWriteTxt.csprojResolveAssemblyReference.cache
+C:\Users\CESARMORALES\documents\visual studio 2015\Projects\ReadBinWriteTxt\ReadBinWriteTxt\bin\Debug\ReadBinWriteTxt.exe
+C:\Users\CESARMORALES\documents\visual studio 2015\Projects\ReadBinWriteTxt\ReadBinWriteTxt\bin\Debug\ReadBinWriteTxt.pdb
+C:\Users\CESARMORALES\documents\visual studio 2015\Projects\ReadBinWriteTxt\ReadBinWriteTxt\bin\Debug\EntityFramework.dll
+C:\Users\CESARMORALES\documents\visual studio 2015\Projects\ReadBinWriteTxt\ReadBinWriteTxt\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\CESARMORALES\documents\visual studio 2015\Projects\ReadBinWriteTxt\ReadBinWriteTxt\bin\Debug\EntityFramework.xml
+C:\Users\CESARMORALES\documents\visual studio 2015\Projects\ReadBinWriteTxt\ReadBinWriteTxt\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\CESARMORALES\documents\visual studio 2015\Projects\ReadBinWriteTxt\ReadBinWriteTxt\obj\Debug\ReadBinWriteTxt.exe
+C:\Users\CESARMORALES\documents\visual studio 2015\Projects\ReadBinWriteTxt\ReadBinWriteTxt\obj\Debug\ReadBinWriteTxt.pdb
+C:\Users\CESARMORALES\documents\visual studio 2015\Projects\ReadBinWriteTxt\ReadBinWriteTxt\bin\Debug\Files\Teachers.txt
