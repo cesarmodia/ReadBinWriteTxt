@@ -62,8 +62,8 @@ namespace ReadBinWriteTxt
         {
             // Read File Bin
             List<Teacher> ListTeachers = new List<Teacher>();
-            var fileBin = File.OpenRead("./Files/TeachersBinary.bin");
-            var binReader = new BinaryReader(fileBin);
+            var fileStream = File.OpenRead("./Files/TeachersBinary.bin");
+            var binReader = new BinaryReader(fileStream);
 
             int band = 0;
             long length = binReader.BaseStream.Length;
@@ -82,7 +82,7 @@ namespace ReadBinWriteTxt
                     band += sizeof(char);
             }
             binReader.Close();
-            fileBin.Close();
+            fileStream.Close();
 
             PrintConsole(ListTeachers);
 
