@@ -62,8 +62,8 @@ namespace ReadBinWriteTxt
         {
             // Read File Bin
             List<Teacher> ListTeachers = new List<Teacher>();
-            var fileStream = File.OpenRead("./Files/TeachersBinary.bin");
-            var binReader = new BinaryReader(fileStream);
+            var fileStreamBin = File.OpenRead("./Files/TeachersBinary.bin");
+            var binReader = new BinaryReader(fileStreamBin);
 
             int band = 0;
             long length = binReader.BaseStream.Length;
@@ -82,17 +82,17 @@ namespace ReadBinWriteTxt
                     band += sizeof(char);
             }
             binReader.Close();
-            fileStream.Close();
+            fileStreamBin.Close();
 
             PrintConsole(ListTeachers);
 
             // Write File TXT
-            var fileStream = new StreamWriter("./Files/Teachers.txt");
+            var fileStreamTXT = new StreamWriter("./Files/Teachers.txt");
             foreach (var teacher in ListTeachers)
             {
-                fileStream.WriteLine($"{teacher.Id}|{teacher.Name}");
+                fileStreamTXT.WriteLine($"{teacher.Id}|{teacher.Name}");
             }
-            fileStream.Close();
+            fileStreamTXT.Close();
         }
     }
 }
